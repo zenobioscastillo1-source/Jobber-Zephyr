@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 490" width="600" height="490">
+  <defs>
+    <style>
+      .label { font-family: 'Inter', -apple-system, 'Segoe UI', sans-serif; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="600" height="490" rx="12" fill="#0D1117"/>
+
+  <!-- ── External Sources row ── y=20–50 -->
+  <text x="300" y="20" class="label" font-size="10" font-weight="600" fill="#3E454D" text-anchor="middle" letter-spacing="1">EXTERNAL SOURCES</text>
+  <!-- Source pills -->
+  <rect x="108" y="28" width="70" height="18" rx="9" fill="#161B22" stroke="#21262D" stroke-width="1"/>
+  <text x="143" y="41" class="label" font-size="9" fill="#6E7681" text-anchor="middle">Website</text>
+  <rect x="193" y="28" width="70" height="18" rx="9" fill="#161B22" stroke="#21262D" stroke-width="1"/>
+  <text x="228" y="41" class="label" font-size="9" fill="#6E7681" text-anchor="middle">Referrals</text>
+  <rect x="278" y="28" width="70" height="18" rx="9" fill="#161B22" stroke="#21262D" stroke-width="1"/>
+  <text x="313" y="41" class="label" font-size="9" fill="#6E7681" text-anchor="middle">Social</text>
+  <rect x="363" y="28" width="70" height="18" rx="9" fill="#161B22" stroke="#21262D" stroke-width="1"/>
+  <text x="398" y="41" class="label" font-size="9" fill="#6E7681" text-anchor="middle">Paid Ads</text>
+  <!-- Downward arrows from sources -->
+  <line x1="143" y1="47" x2="143" y2="60" stroke="#21262D" stroke-width="1"/>
+  <line x1="228" y1="47" x2="228" y2="60" stroke="#21262D" stroke-width="1"/>
+  <line x1="313" y1="47" x2="313" y2="60" stroke="#21262D" stroke-width="1"/>
+  <line x1="398" y1="47" x2="398" y2="60" stroke="#21262D" stroke-width="1"/>
+
+  <!-- ── TRADEWIND block ── x=60, y=62, w=480, h=80 -->
+  <rect x="60" y="62" width="480" height="80" rx="8" fill="#0D1520" stroke="#1F3A73" stroke-width="1"/>
+  <!-- Top accent bar -->
+  <rect x="60" y="62" width="480" height="3" rx="1" fill="#1F6FEB" opacity="0.7"/>
+  <text x="300" y="88" class="label" font-size="10" font-weight="600" fill="#4E7EC8" text-anchor="middle" letter-spacing="1">TRADEWIND</text>
+  <text x="300" y="106" class="label" font-size="13" font-weight="700" fill="#E6EDF3" text-anchor="middle">Find &amp; Qualify Leads</text>
+  <text x="300" y="124" class="label" font-size="10" fill="#6E7681" text-anchor="middle">Score leads → approve → write qualified clients to Jobber</text>
+
+  <!-- Connector 1: Tradewind (w=480, x=60–540) → Jobber (w=260, x=170–430) -->
+  <!-- Narrows: top 60,142 to 540,142 → bottom 170,162 to 430,162 -->
+  <polygon points="60,142 540,142 430,162 170,162" fill="#0A0E17"/>
+  <!-- Subtle side lines -->
+  <line x1="60" y1="142" x2="170" y2="162" stroke="#1A2A3A" stroke-width="1"/>
+  <line x1="540" y1="142" x2="430" y2="162" stroke="#1A2A3A" stroke-width="1"/>
+
+  <!-- ── JOBBER block ── x=170, y=162, w=260, h=64 -->
+  <rect x="170" y="162" width="260" height="64" rx="8" fill="#161B22" stroke="#30363D" stroke-width="1"/>
+  <text x="300" y="186" class="label" font-size="10" font-weight="600" fill="#8B949E" text-anchor="middle" letter-spacing="1">JOBBER</text>
+  <text x="300" y="205" class="label" font-size="12" font-weight="700" fill="#E6EDF3" text-anchor="middle">Requests · Clients · Quotes</text>
+  <text x="300" y="219" class="label" font-size="9" fill="#4A5568" text-anchor="middle">source of truth for both tools</text>
+
+  <!-- Connector 2: Jobber (w=260, x=170–430) → Zephyr (w=300, x=150–450) — slight expand -->
+  <!-- Expands: top 170,226 to 430,226 → bottom 150,248 to 450,248 -->
+  <polygon points="170,226 430,226 450,248 150,248" fill="#0A0E17"/>
+  <line x1="170" y1="226" x2="150" y2="248" stroke="#1A2A3A" stroke-width="1"/>
+  <line x1="430" y1="226" x2="450" y2="248" stroke="#1A2A3A" stroke-width="1"/>
+
+  <!-- ── ZEPHYR block ── x=150, y=248, w=300, h=100 -->
+  <rect x="150" y="248" width="300" height="100" rx="8" fill="#0F1A14" stroke="#1A3A28" stroke-width="1"/>
+  <!-- Top accent bar -->
+  <rect x="150" y="248" width="300" height="3" rx="1" fill="#10B981" opacity="0.7"/>
+  <text x="300" y="272" class="label" font-size="10" font-weight="600" fill="#3B8C6E" text-anchor="middle" letter-spacing="1">ZEPHYR</text>
+  <text x="300" y="290" class="label" font-size="13" font-weight="700" fill="#E6EDF3" text-anchor="middle">Quote Follow-Up</text>
+  <!-- 4-step mini flow inside Zephyr -->
+  <text x="300" y="310" class="label" font-size="10" fill="#6E7681" text-anchor="middle">Detect aging  →  AI draft  →  Approve  →  Send</text>
+  <!-- Connectors between mini steps -->
+  <text x="300" y="327" class="label" font-size="9" fill="#3E454D" text-anchor="middle">Claude Haiku  ·  grounding gate  ·  Google Sheet  ·  SendGrid</text>
+
+  <!-- Connector 3: Zephyr (w=300, x=150–450) → Job Booked (w=160, x=220–380) — narrows -->
+  <!-- top 150,348 to 450,348 → bottom 220,370 to 380,370 -->
+  <polygon points="150,348 450,348 380,370 220,370" fill="#0A0E17"/>
+  <line x1="150" y1="348" x2="220" y2="370" stroke="#1A0A0A" stroke-width="1"/>
+  <line x1="450" y1="348" x2="380" y2="370" stroke="#1A0A0A" stroke-width="1"/>
+
+  <!-- ── JOB BOOKED block ── x=220, y=370, w=160, h=52 -->
+  <rect x="220" y="370" width="160" height="52" rx="8" fill="#1A0808" stroke="#8B1A1A" stroke-width="1.5"/>
+  <text x="300" y="392" class="label" font-size="10" font-weight="600" fill="#C53030" text-anchor="middle" letter-spacing="1">JOB BOOKED</text>
+  <text x="300" y="410" class="label" font-size="11" font-weight="700" fill="#E6EDF3" text-anchor="middle">Client confirms</text>
+
+  <!-- ── Width labels on the right (funnel scale indicators) ── -->
+  <text x="556" y="104" class="label" font-size="9" fill="#3E454D" text-anchor="start">many leads</text>
+  <text x="444" y="198" class="label" font-size="9" fill="#3E454D" text-anchor="start">filtered</text>
+  <text x="462" y="302" class="label" font-size="9" fill="#3E454D" text-anchor="start">aging quotes</text>
+  <text x="390" y="400" class="label" font-size="9" fill="#3E454D" text-anchor="start">bookings</text>
+
+  <!-- Scale bracket lines -->
+  <line x1="548" y1="62" x2="548" y2="142" stroke="#21262D" stroke-width="1"/>
+  <line x1="542" y1="62" x2="548" y2="62" stroke="#21262D" stroke-width="1"/>
+  <line x1="542" y1="142" x2="548" y2="142" stroke="#21262D" stroke-width="1"/>
+
+  <line x1="438" y1="162" x2="438" y2="226" stroke="#21262D" stroke-width="1"/>
+  <line x1="432" y1="162" x2="438" y2="162" stroke="#21262D" stroke-width="1"/>
+  <line x1="432" y1="226" x2="438" y2="226" stroke="#21262D" stroke-width="1"/>
+
+  <line x1="458" y1="248" x2="458" y2="348" stroke="#21262D" stroke-width="1"/>
+  <line x1="452" y1="248" x2="458" y2="248" stroke="#21262D" stroke-width="1"/>
+  <line x1="452" y1="348" x2="458" y2="348" stroke="#21262D" stroke-width="1"/>
+
+  <line x1="386" y1="370" x2="386" y2="422" stroke="#21262D" stroke-width="1"/>
+  <line x1="380" y1="370" x2="386" y2="370" stroke="#21262D" stroke-width="1"/>
+  <line x1="380" y1="422" x2="386" y2="422" stroke="#21262D" stroke-width="1"/>
+
+</svg>

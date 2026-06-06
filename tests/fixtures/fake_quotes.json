@@ -1,0 +1,319 @@
+{
+  "data": {
+    "quotes": {
+      "nodes": [
+        {
+          "id": "gid://jobber/Quote/101",
+          "quoteNumber": "Q-101",
+          "quoteStatus": "AWAITING_RESPONSE",
+          "title": "Kitchen exhaust fan installation",
+          "message": "Please review the attached quote for your kitchen exhaust fan project.",
+          "transitionedAt": "2026-05-30T08:00:00+00:00",
+          "clientHubViewedAt": "2026-05-31T09:15:00+00:00",
+          "createdAt": "2026-05-30T07:45:00+00:00",
+          "previewUrl": "https://clienthub.getjobber.com/quotes/101",
+          "amounts": {
+            "depositAmount": 600.0,
+            "discountAmount": 0.0,
+            "nonTaxAmount": 1200.0,
+            "outstandingDepositAmount": 600.0,
+            "subtotal": 1200.0,
+            "taxAmount": 0.0,
+            "total": 1200.0
+          },
+          "client": {
+            "id": "gid://jobber/Client/1",
+            "name": "Marcus Reyes",
+            "firstName": "Marcus",
+            "emails": [{ "address": "marcus.reyes@example.com" }],
+            "phones": [{ "number": "+63 912 345 6789" }],
+            "companyName": null,
+            "isCompany": false
+          },
+          "property": {
+            "address": {
+              "street1": "14 Sampaguita St",
+              "street2": null,
+              "city": "Calamba",
+              "province": "Laguna",
+              "postalCode": "4027"
+            }
+          },
+          "lineItems": {
+            "nodes": [
+              {
+                "name": "Kitchen exhaust fan (60cm)",
+                "description": "Stainless steel ducted exhaust fan, ceiling-mount",
+                "quantity": 1,
+                "unitPrice": 850.0,
+                "totalPrice": 850.0
+              },
+              {
+                "name": "Installation labor",
+                "description": "Electrical rough-in and fixture mount",
+                "quantity": 1,
+                "unitPrice": 350.0,
+                "totalPrice": 350.0
+              }
+            ]
+          }
+        },
+        {
+          "id": "gid://jobber/Quote/102",
+          "quoteNumber": "Q-102",
+          "quoteStatus": "AWAITING_RESPONSE",
+          "title": "Whole-house water filter system",
+          "message": "Quote for whole-house water filtration as discussed.",
+          "transitionedAt": "2026-05-31T10:00:00+00:00",
+          "clientHubViewedAt": null,
+          "createdAt": "2026-05-31T09:30:00+00:00",
+          "previewUrl": "https://clienthub.getjobber.com/quotes/102",
+          "amounts": {
+            "depositAmount": 475.0,
+            "discountAmount": 0.0,
+            "nonTaxAmount": 950.0,
+            "outstandingDepositAmount": 475.0,
+            "subtotal": 950.0,
+            "taxAmount": 0.0,
+            "total": 950.0
+          },
+          "client": {
+            "id": "gid://jobber/Client/2",
+            "name": "Diane Castillo",
+            "firstName": "Diane",
+            "emails": [{ "address": "diane.castillo@example.com" }],
+            "phones": [{ "number": "+63 917 654 3210" }],
+            "companyName": null,
+            "isCompany": false
+          },
+          "property": {
+            "address": {
+              "street1": "7 Maliksi Ave",
+              "street2": null,
+              "city": "Calamba",
+              "province": "Laguna",
+              "postalCode": "4027"
+            }
+          },
+          "lineItems": {
+            "nodes": [
+              {
+                "name": "Whole-house sediment filter",
+                "description": "5-stage filtration unit with installation kit",
+                "quantity": 1,
+                "unitPrice": 650.0,
+                "totalPrice": 650.0
+              },
+              {
+                "name": "Plumbing labor",
+                "description": "Main line tap and bypass installation",
+                "quantity": 1,
+                "unitPrice": 300.0,
+                "totalPrice": 300.0
+              }
+            ]
+          }
+        },
+        {
+          "id": "gid://jobber/Quote/103",
+          "quoteNumber": "Q-103",
+          "quoteStatus": "AWAITING_RESPONSE",
+          "title": "Ceiling fan replacement",
+          "message": "Here is your quote for the ceiling fan replacement in the bedroom.",
+          "transitionedAt": "2026-05-29T14:00:00+00:00",
+          "clientHubViewedAt": "2026-05-30T11:00:00+00:00",
+          "createdAt": "2026-05-29T13:30:00+00:00",
+          "previewUrl": "https://clienthub.getjobber.com/quotes/103",
+          "amounts": {
+            "depositAmount": 0.0,
+            "discountAmount": 0.0,
+            "nonTaxAmount": 280.0,
+            "outstandingDepositAmount": 0.0,
+            "subtotal": 280.0,
+            "taxAmount": 0.0,
+            "total": 280.0
+          },
+          "client": {
+            "id": "gid://jobber/Client/3",
+            "name": "Leo Santos",
+            "firstName": "Leo",
+            "emails": [{ "address": "leo.santos@example.com" }],
+            "phones": [{ "number": "+63 920 111 2222" }],
+            "companyName": null,
+            "isCompany": false
+          },
+          "property": {
+            "address": {
+              "street1": "22 Narra Blvd",
+              "street2": "Unit 3B",
+              "city": "Los Baños",
+              "province": "Laguna",
+              "postalCode": "4030"
+            }
+          },
+          "lineItems": {
+            "nodes": [
+              {
+                "name": "Ceiling fan (52-inch, 5-blade)",
+                "description": "Energy-efficient DC motor ceiling fan",
+                "quantity": 1,
+                "unitPrice": 180.0,
+                "totalPrice": 180.0
+              },
+              {
+                "name": "Labor — fan removal and install",
+                "description": "Removal of old fan, mounting and wiring new unit",
+                "quantity": 1,
+                "unitPrice": 100.0,
+                "totalPrice": 100.0
+              }
+            ]
+          }
+        },
+        {
+          "id": "gid://jobber/Quote/104",
+          "quoteNumber": "Q-104",
+          "quoteStatus": "AWAITING_RESPONSE",
+          "title": "Drain snaking — master bathroom",
+          "message": "Quote for drain clearing service as requested.",
+          "transitionedAt": "2026-06-02T09:00:00+00:00",
+          "clientHubViewedAt": null,
+          "createdAt": "2026-06-02T08:45:00+00:00",
+          "previewUrl": "https://clienthub.getjobber.com/quotes/104",
+          "amounts": {
+            "depositAmount": 0.0,
+            "discountAmount": 0.0,
+            "nonTaxAmount": 150.0,
+            "outstandingDepositAmount": 0.0,
+            "subtotal": 150.0,
+            "taxAmount": 0.0,
+            "total": 150.0
+          },
+          "client": {
+            "id": "gid://jobber/Client/4",
+            "name": "Carmen Vega",
+            "firstName": "Carmen",
+            "emails": [{ "address": "carmen.vega@example.com" }],
+            "phones": [{ "number": "+63 915 777 8888" }],
+            "companyName": null,
+            "isCompany": false
+          },
+          "property": {
+            "address": {
+              "street1": "3 Ilang-Ilang St",
+              "street2": null,
+              "city": "Calamba",
+              "province": "Laguna",
+              "postalCode": "4027"
+            }
+          },
+          "lineItems": {
+            "nodes": [
+              {
+                "name": "Drain snake service",
+                "description": "Mechanical drain clearing, up to 10m",
+                "quantity": 1,
+                "unitPrice": 150.0,
+                "totalPrice": 150.0
+              }
+            ]
+          }
+        },
+        {
+          "id": "gid://jobber/Quote/105",
+          "quoteNumber": "Q-105",
+          "quoteStatus": "AWAITING_RESPONSE",
+          "title": "HVAC annual maintenance plan",
+          "message": "Quote for the annual HVAC maintenance service plan.",
+          "transitionedAt": "2026-05-28T08:00:00+00:00",
+          "clientHubViewedAt": "2026-05-29T10:30:00+00:00",
+          "createdAt": "2026-05-28T07:30:00+00:00",
+          "previewUrl": "https://clienthub.getjobber.com/quotes/105",
+          "amounts": {
+            "depositAmount": 300.0,
+            "discountAmount": 0.0,
+            "nonTaxAmount": 600.0,
+            "outstandingDepositAmount": 300.0,
+            "subtotal": 600.0,
+            "taxAmount": 0.0,
+            "total": 600.0
+          },
+          "client": {
+            "id": "gid://jobber/Client/5",
+            "name": "Felix Navarro",
+            "firstName": "Felix",
+            "emails": [{ "address": "felix.navarro@example.com" }],
+            "phones": [{ "number": "+63 918 333 4444" }],
+            "companyName": "Navarro Commercial Properties",
+            "isCompany": true
+          },
+          "property": {
+            "address": {
+              "street1": "88 Rizal Ave",
+              "street2": null,
+              "city": "Calamba",
+              "province": "Laguna",
+              "postalCode": "4027"
+            }
+          },
+          "lineItems": {
+            "nodes": [
+              {
+                "name": "Annual HVAC maintenance (2 visits)",
+                "description": "Filter replacement, coil cleaning, refrigerant check",
+                "quantity": 1,
+                "unitPrice": 600.0,
+                "totalPrice": 600.0
+              }
+            ]
+          }
+        },
+        {
+          "id": "gid://jobber/Quote/106",
+          "quoteNumber": "Q-106",
+          "quoteStatus": "AWAITING_RESPONSE",
+          "title": "Free assessment visit",
+          "message": "Quote for a no-charge initial assessment.",
+          "transitionedAt": "2026-05-26T07:00:00+00:00",
+          "clientHubViewedAt": null,
+          "createdAt": "2026-05-26T06:45:00+00:00",
+          "previewUrl": "https://clienthub.getjobber.com/quotes/106",
+          "amounts": {
+            "depositAmount": 0.0,
+            "discountAmount": 0.0,
+            "nonTaxAmount": 0.0,
+            "outstandingDepositAmount": 0.0,
+            "subtotal": 0.0,
+            "taxAmount": 0.0,
+            "total": 0.0
+          },
+          "client": {
+            "id": "gid://jobber/Client/6",
+            "name": "Rosa Tan",
+            "firstName": "Rosa",
+            "emails": [{ "address": "rosa.tan@example.com" }],
+            "phones": [{ "number": "+63 919 555 6666" }],
+            "companyName": null,
+            "isCompany": false
+          },
+          "property": {
+            "address": {
+              "street1": "5 Jasmine Lane",
+              "street2": null,
+              "city": "Biñan",
+              "province": "Laguna",
+              "postalCode": "4024"
+            }
+          },
+          "lineItems": {
+            "nodes": []
+          }
+        }
+      ],
+      "pageInfo": {
+        "hasNextPage": false,
+        "endCursor": null
+      }
+    }
+  }
+}

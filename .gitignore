@@ -1,0 +1,12 @@
+.env
+nudge_log.json
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+*.json.bak

@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 440" width="600" height="440">
+  <defs>
+    <style>
+      .label { font-family: 'Inter', -apple-system, 'Segoe UI', sans-serif; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="600" height="440" rx="12" fill="#0D1117"/>
+
+  <!-- Title -->
+  <text x="300" y="28" class="label" font-size="11" font-weight="600" fill="#6E7681" text-anchor="middle" letter-spacing="1.2">FOLLOW-UP STRATEGY MATRIX</text>
+
+  <!-- ── X-axis column headers ── -->
+  <!-- Left column center: x = 96 + 240/2 = 216 -->
+  <!-- Right column center: x = 336 + 240/2 = 456 -->
+  <text x="216" y="50" class="label" font-size="10" font-weight="600" fill="#8B949E" text-anchor="middle" letter-spacing="0.8">NEVER VIEWED</text>
+  <text x="456" y="50" class="label" font-size="10" font-weight="600" fill="#8B949E" text-anchor="middle" letter-spacing="0.8">HAS VIEWED</text>
+
+  <!-- ── Y-axis row labels (rotated vertical) ── -->
+  <!-- Top row center y: 56 + 140/2 = 126 -->
+  <!-- Bottom row center y: 196 + 140/2 = 266 -->
+  <text transform="rotate(-90, 44, 126)" x="44" y="126" class="label" font-size="10" font-weight="600" fill="#8B949E" text-anchor="middle" letter-spacing="0.6">HIGH VALUE  &gt;$500</text>
+  <text transform="rotate(-90, 44, 266)" x="44" y="266" class="label" font-size="10" font-weight="600" fill="#8B949E" text-anchor="middle" letter-spacing="0.6">STANDARD  ≤$500</text>
+
+  <!-- ── Grid border ── -->
+  <rect x="96" y="56" width="480" height="280" rx="4" fill="none" stroke="#21262D" stroke-width="1"/>
+
+  <!-- ── Dividers ── -->
+  <!-- Vertical divider -->
+  <line x1="336" y1="56" x2="336" y2="336" stroke="#21262D" stroke-width="1"/>
+  <!-- Horizontal divider -->
+  <line x1="96" y1="196" x2="576" y2="196" stroke="#21262D" stroke-width="1"/>
+
+  <!-- ── Quadrant fills (subtle) ── -->
+  <rect x="96" y="56" width="240" height="140" rx="4" fill="#0D1520" clip-path="none"/>
+  <rect x="336" y="56" width="240" height="140" fill="#0B1A14"/>
+  <rect x="96" y="196" width="240" height="140" fill="#131313"/>
+  <rect x="336" y="196" width="240" height="140" fill="#0B1519"/>
+
+  <!-- ── Cell: ensure_delivery (top-left, never viewed + high value) ── -->
+  <!-- Cell center: x=216, y=126 -->
+  <text x="216" y="108" class="label" font-size="13" font-weight="700" fill="#6366F1" text-anchor="middle">ensure_delivery</text>
+  <text x="216" y="126" class="label" font-size="10" fill="#6E7681" text-anchor="middle">Not viewed · high value quote</text>
+  <text x="216" y="143" class="label" font-size="10" fill="#4A5568" text-anchor="middle" font-style="italic">"Making sure this reached you…"</text>
+
+  <!-- ── Cell: warm_engaged (top-right, viewed + high value) ── -->
+  <!-- Cell center: x=456, y=126 -->
+  <text x="456" y="108" class="label" font-size="13" font-weight="700" fill="#10B981" text-anchor="middle">warm_engaged</text>
+  <text x="456" y="126" class="label" font-size="10" fill="#6E7681" text-anchor="middle">Viewed · high value quote</text>
+  <text x="456" y="143" class="label" font-size="10" fill="#4A5568" text-anchor="middle" font-style="italic">"Wanted to check if you had questions…"</text>
+
+  <!-- ── Cell: soft_reminder (bottom-left, never viewed + standard) ── -->
+  <!-- Cell center: x=216, y=266 -->
+  <text x="216" y="249" class="label" font-size="13" font-weight="700" fill="#8B949E" text-anchor="middle">soft_reminder</text>
+  <text x="216" y="267" class="label" font-size="10" fill="#6E7681" text-anchor="middle">Not viewed · standard value</text>
+  <text x="216" y="284" class="label" font-size="10" fill="#4A5568" text-anchor="middle" font-style="italic">"Sending this along in case it got buried…"</text>
+
+  <!-- ── Cell: gentle_nudge (bottom-right, viewed + standard) ── -->
+  <!-- Cell center: x=456, y=266 -->
+  <text x="456" y="249" class="label" font-size="13" font-weight="700" fill="#0EA5E9" text-anchor="middle">gentle_nudge</text>
+  <text x="456" y="267" class="label" font-size="10" fill="#6E7681" text-anchor="middle">Viewed · standard value</text>
+  <text x="456" y="284" class="label" font-size="10" fill="#4A5568" text-anchor="middle" font-style="italic">"Just following up on the quote I sent…"</text>
+
+  <!-- ── Grid border overlay (to sit on top of fills) ── -->
+  <rect x="96" y="56" width="480" height="280" rx="4" fill="none" stroke="#21262D" stroke-width="1"/>
+  <line x1="336" y1="56" x2="336" y2="336" stroke="#21262D" stroke-width="1"/>
+  <line x1="96" y1="196" x2="576" y2="196" stroke="#21262D" stroke-width="1"/>
+
+  <!-- ── final_check badge ── -->
+  <rect x="130" y="358" width="340" height="42" rx="8" fill="#1A0F0F" stroke="#8B1A1A" stroke-width="1"/>
+  <!-- Small crimson dot -->
+  <circle cx="155" cy="379" r="5" fill="#8B1A1A"/>
+  <text x="170" y="374" class="label" font-size="12" font-weight="700" fill="#C53030">final_check</text>
+  <text x="170" y="390" class="label" font-size="10" fill="#6E7681">2nd nudge on any quote — overrides all four quadrants</text>
+
+</svg>

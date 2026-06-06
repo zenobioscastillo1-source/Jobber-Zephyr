@@ -1,0 +1,37 @@
+name: Zephyr — Quote Follow-Up
+
+on:
+  schedule:
+    - cron: '0 13 * * 1-5'  # 8 AM EST, weekdays only
+  workflow_dispatch:          # Manual trigger for testing
+
+jobs:
+  follow-up:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run Zephyr
+        env:
+          JOBBER_ACCESS_TOKEN: ${{ secrets.JOBBER_ACCESS_TOKEN }}
+          JOBBER_REFRESH_TOKEN: ${{ secrets.JOBBER_REFRESH_TOKEN }}
+          JOBBER_CLIENT_ID: ${{ secrets.JOBBER_CLIENT_ID }}
+          JOBBER_CLIENT_SECRET: ${{ secrets.JOBBER_CLIENT_SECRET }}
+          GOOGLE_SHEETS_CREDENTIALS: ${{ secrets.GOOGLE_SHEETS_CREDENTIALS }}
+          GOOGLE_SHEET_ID: ${{ secrets.GOOGLE_SHEET_ID }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          AGING_THRESHOLD_DAYS: 3
+          MAX_NUDGES_PER_QUOTE: 2
+          MIN_DAYS_BETWEEN_NUDGES: 3
+          HIGH_VALUE_THRESHOLD: 500
+          BUSINESS_NAME: ${{ secrets.BUSINESS_NAME }}
+          OWNER_NAME: ${{ secrets.OWNER_NAME }}
+        run: python -m src.main
