@@ -41,7 +41,7 @@ A second nudge on any quote uses the `final_check` strategy — a brief, respect
 ## Install
 
 ```bash
-git clone https://github.com/zenobioscastillo1-source/Nerumi-Jobber-Zephyr
+git clone https://github.com/zenobioscastillo1-source/Jobber-Zephyr
 cd Jobber-Zephyr
 python -m venv .venv
 source .venv/bin/activate  # Windows: .venv\Scripts\activate
