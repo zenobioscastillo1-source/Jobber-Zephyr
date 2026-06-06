@@ -126,4 +126,3 @@ All tests run without live API calls — Jobber, Anthropic, Google Sheets, and S
 - [x] **Phase 2:** Email delivery via SendGrid (`ENABLE_DELIVERY=true`)
 - [x] **Sheet-seeded nudge log:** Nudge state persists across GitHub Actions runs via Nudge Log tab
 - [ ] **Webhook mode:** React to quote status changes in real time instead of polling
-- [ ] **Multi-language support:** Follow-up drafts in the client's preferred language
